@@ -1,0 +1,6 @@
+function openExcelFile(filePath) {
+  const excelWindow = window.open(filePath, '_blank');
+  if (!excelWindow) {
+    console.log('The Excel file could not be opened.');
+  }
+}
